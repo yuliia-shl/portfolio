@@ -2,8 +2,8 @@
 
 @theme {
   --font-family: "Manrope", sans-serif;
-  --second-family: "Bebas Neue", sans-serif;
-  --third-family: "Inter", sans-serif;
+  --font-second: "Bebas Neue", sans-serif;
+  --font-third: "Inter", sans-serif;
 
   --color-cod-gray-950: #0a0a0a;
   --color-woodsmoke-950: #1a1a1a;
@@ -22,7 +22,11 @@
   }
 
   body {
-    @apply font-family text-silver-300 bg-cod-gray-950 text-base/[160%] xl:text-lg/[150%];
+    @apply font-family text-silver-300 bg-cod-gray-950 text-base/[160%] lg:text-xl/[150%];
     scrollbar-gutter: stable;
   }
+}
+
+button {
+  cursor: pointer;
 }
