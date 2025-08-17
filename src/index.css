@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family: "Manrope", sans-serif;
+  --second-family: "Bebas Neue", sans-serif;
+  --third-family: "Inter", sans-serif;
+
+  --color-cod-gray-950: #0a0a0a;
+  --color-woodsmoke-950: #1a1a1a;
+  --color-shark-950: #222;
+  --color-masala-900: #404040;
+  --color-abbey-800: #484848;
+  --color-silver-300: #c7c7c7;
+  --color-white: #fff;
+  --color-yellow-green-300: #d3e97a;
+}
+
+@layer base {
+  html {
+    @apply font-sans;
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    @apply font-family text-silver-300 bg-cod-gray-950 text-base/[160%] xl:text-lg/[150%];
+    scrollbar-gutter: stable;
+  }
+}
