@@ -13,6 +13,7 @@
   --color-silver-300: #c7c7c7;
   --color-white: #fff;
   --color-yellow-green-300: #d3e97a;
+  --color-conifer-400: #bcd95a;
 }
 
 @layer base {
@@ -29,4 +30,10 @@
 
 button {
   cursor: pointer;
+}
+
+@layer components {
+  .title {
+    @apply font-second text-white text-[2.75rem]/[100%] tracking-[-0.02em] mb-4 lg:text-[4.75rem]/[100%] lg:mb-[2vw];
+  }
 }

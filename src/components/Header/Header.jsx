@@ -9,10 +9,10 @@ const Header = () => {
         >
           YULIIA SHLIAPTSEVA
         </a>
-        <nav className="flex items-center justify-center">
+        {/* <nav className="flex items-center justify-center">
           <button
             aria-label="Open menu"
-            /* aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}> */
+             /* aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}> 
             aria-expanded="false"
             className="md:hidden "
           >
@@ -37,7 +37,7 @@ const Header = () => {
               </a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </div>
     </header>
   );
