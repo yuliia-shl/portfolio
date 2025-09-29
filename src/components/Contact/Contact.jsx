@@ -18,7 +18,7 @@ const Contact = () => {
             <p>
               For more info, here’s my{" "}
               <a
-                href="/resume.pdf"
+                href="/Yuliia_Shliaptseva_FullstackDeveloper.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline hover:decoration-yellow-green-300 transition-colors duration-300 ease-in-out"
