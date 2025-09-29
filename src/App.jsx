@@ -1,5 +1,5 @@
 import "./App.css";
-import Contact from "./components/Contact/Contact";
+import Contacts from "./components/Contacts/Contacts";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Projects from "./components/Projects/Projects";
@@ -11,8 +11,8 @@ function App() {
       <main>
         <Hero />
         <Projects />
-        <Contact />
       </main>
+      <Contacts />
     </>
   );
 }

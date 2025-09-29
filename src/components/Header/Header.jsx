@@ -24,7 +24,7 @@ const Header = () => {
           <ul className="flex items-center gap-[3vw] font-third leading-[150%] font-medium tracking-[-0.03em] ">
             <li>
               <a href="#projects" className="block py-6">
-                Work
+                Projects
               </a>
             </li>
             {/* <li>
@@ -33,7 +33,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#contact" className="block py-6">
+              <a href="#contacts" className="block py-6">
                 Contact
               </a>
             </li> */}

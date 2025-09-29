@@ -12,7 +12,7 @@ const Hero = () => {
           </p>
           <div className="flex gap-5">
             <a
-              href="#contact"
+              href="#contacts"
               className="inline-flex p-1 pl-4 bg-yellow-green-300 rounded-full gap-3 items-center lg:p-1.5 lg:pl-6 transition hover:bg-conifer-400 duration-300 hover:scale-105 transform will-change-transform"
             >
               <span className="text-cod-gray-950 text-sm/[100%] lg:text-base/[100%] font-bold uppercase">

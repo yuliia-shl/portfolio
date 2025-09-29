@@ -23,11 +23,11 @@ const Projects = () => {
                 key={index}
                 className="flex flex-col lg:flex-row gap-10 lg:gap-12"
               >
-                <div className="bg-woodsmoke-950 min-w-[290px] min-h-[290px] w-full p-[7%] lg:p-[3%] mb-8 flex items-center">
+                <div className="bg-woodsmoke-950 min-w-[290px] min-h-[190px] w-full p-[5%] lg:p-[3%] mb-8 flex items-center rounded-xl">
                   <img
                     src={path}
                     alt={altText}
-                    className="w-full lg:max-w-[488px] mx-auto object-cover"
+                    className="w-full mx-auto object-cover rounded-xl"
                   />
                 </div>
 

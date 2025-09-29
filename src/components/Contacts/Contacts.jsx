@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 lg:py-20">
+    <footer id="contacts" className="py-16 lg:py-20">
       <div className="container mx-auto px-[5%]">
         <div className="flex flex-col gap-10 lg:gap-[6vw] mb-16 lg:mb-20">
           <div>
@@ -59,7 +59,7 @@ const Contact = () => {
         </div>
         <p>&copy; 2025 Yuliia Shliaptseva</p>
       </div>
-    </section>
+    </footer>
   );
 };
 
