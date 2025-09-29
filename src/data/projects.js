@@ -1,13 +1,54 @@
 export const projects = [
   {
-    path: "projects/smart-lockers.jpg",
+    imgPath: "projects/smart-lockers.jpg",
     altText: "Smart Locker HUB",
     title: "Promotional landing page",
     description:
-      "Smart Locker HUB – a responsive single-page web app built as a promotional website for a multifunctional self-service complex. Features a fully responsive layout, dynamic content, an overview of smart locker modules, and validated contact forms.",
+      "As a front-end developer, I built responsive UI components and dynamic order forms with KeyCRM integration and Zod validation. Migrated the site to Builder.io for client-managed content, created reusable templates for ad campaigns, and delivered user onboarding. Focused on semantic HTML, accessibility, SEO, and performance. Deployed via FTP in direct coordination with the client.",
+    client: "MVK Mash LLC",
     year: "2025",
     role: "Front-end Developer",
-    // links: [{ live: "https://smart-hubmvk.com/" }, { gitHub: "" }],
     links: [{ live: "https://smart-hubmvk.com/" }],
+  },
+  {
+    status: "In Progress",
+    imgPath: "projects/petsHelp.jpg",
+    altText: "Pets Help",
+    title: "PetsHelp Marketplace",
+    description:
+      "As a Front-end Developer and team lead, I built user authentication and service booking forms to improve user flow and conversions. I conducted regular code reviews with a focus on semantic HTML, accessibility, clean architecture, and adherence to the DRY principle. Recognized for leadership and contribution to product quality.",
+    year: "2025",
+    role: "Front-end Developer",
+    links: [{ gitHub: "https://github.com/petHelpMarketplace/frontend/" }],
+  },
+  {
+    status: "Pet-project",
+    imgPath: "projects/aqua-track.jpg",
+    altText: "Aqua Track",
+    title: "A personal water tracker",
+    description:
+      "As a fullstack developer, I implemented the water/month API endpoint and password reset functionality, improved Swagger API documentation, and built authentication pages (Sign In/Sign Up) on the frontend. I also styled modal windows, integrated ReactConfetti, and regularly reviewed pull requests to maintain code quality.",
+    year: "2025",
+    role: "Fullstack Developer",
+    links: [
+      { live: "https://project-rapid-forge-frontend.vercel.app/tracker/" },
+      { gitHub: "https://github.com/yuliia-shl/Aqua-Track-frontend/" },
+      { swagger: "https://aqua-track-app.onrender.com/api-docs/" },
+      { gitHubBack: "https://github.com/yuliia-shl/Aqua-Track-backend/" },
+    ],
+  },
+  {
+    status: "Pet-project",
+    imgPath: "projects/lloyd-jef.jpg",
+    altText: "Llloyd's portfolio",
+    title: "A developer portfolio",
+    description:
+      "As Team Lead, I developed the Footer section and contributed to the interactive Reviews section using Swiper API. Oversaw project stability on GitHub, optimized performance, and assisted teammates with technical implementation. Managed task planning in Trello and led the team using SCRUM methodology.",
+    year: "2024",
+    role: "Team Lead & Developer",
+    links: [
+      { live: "https://yuliia-shl.github.io/jefferson-portfolio/" },
+      { gitHub: "https://github.com/yuliia-shl/jefferson-portfolio/" },
+    ],
   },
 ];

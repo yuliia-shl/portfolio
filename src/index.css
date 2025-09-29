@@ -23,7 +23,7 @@
   }
 
   body {
-    @apply font-family text-silver-300 bg-cod-gray-950 text-base/[160%] lg:text-xl/[150%];
+    @apply font-family text-silver-300 bg-cod-gray-950 text-base/[160%] lg:text-lg/[150%];
     scrollbar-gutter: stable;
   }
 }
@@ -38,7 +38,7 @@ button {
   }
 
   .subtitle {
-    @apply font-medium text-2xl leading-[140%] text-white mb-4 lg:text-[2rem];
+    @apply font-medium text-2xl leading-[140%] text-white mb-3 lg:text-[2rem];
   }
 
   .underline-animation::after {

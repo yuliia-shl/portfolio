@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <footer id="contacts" className="py-16 lg:py-20">
       <div className="container mx-auto px-[5%]">
-        <div className="flex flex-col gap-10 lg:gap-[6vw] mb-16 lg:mb-20">
+        <div className="flex flex-col gap-10 lg:gap-[5vw] mb-16 lg:mb-20">
           <div>
             <h2 className="title">Let’s connect</h2>
             <p className="mb-2">
@@ -27,6 +27,7 @@ const Contact = () => {
               </a>
             </p>
           </div>
+
           <ul className="flex gap-7">
             <li>
               <a
