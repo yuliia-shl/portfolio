@@ -53,19 +53,24 @@ const Projects = () => {
                     <p className="py-4 border-b border-abbey-800 uppercase text-white font-semibold leading-[150%]">
                       Project Info
                     </p>
-                    {client && (
-                      <div className="flex items-center justify-between border-b border-abbey-800">
-                        <p className="py-4 text-white font-medium">Client</p>
-                        <p>{client}</p>
+                    <div className="xl:flex xl:justify-between">
+                      {client && (
+                        <div className="flex items-center justify-between border-b border-abbey-800 xl:w-[48%] ">
+                          <p className="py-4 text-white font-medium">Client</p>
+                          <p>{client}</p>
+                        </div>
+                      )}
+                      <div
+                        className={`flex items-center justify-between border-b border-abbey-800 
+                       ${client ? "xl:w-[48%]" : "xl:w-[100%]"}`}
+                      >
+                        <p className="py-4 text-white font-medium">Year</p>
+                        <p>{year}</p>
                       </div>
-                    )}
-                    <div className="flex items-center justify-between border-b border-abbey-800">
-                      <p className="py-4 text-white font-medium">Year</p>
-                      <p>{year}</p>
                     </div>
                     <div className="flex items-center justify-between border-b border-abbey-800">
                       <p className="py-4 text-white font-medium">Role</p>
-                      <p>{role}</p>
+                      <p className="text-right">{role}</p>
                     </div>
                   </div>
 

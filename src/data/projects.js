@@ -1,5 +1,17 @@
 export const projects = [
   {
+    status: "In Progress",
+    imgPath: "/projects/sofinityPro.jpg",
+    altText: "SofinityPRO",
+    title: "E-commerce Website",
+    description:
+      "Configured and deployed an OpenCart-based e-commerce website for selling educational equipment in Ukraine. Set up hosting, domain, SEO optimization, and business email integration. Installed and configured all required modules, customized the default template, and implemented significant UI changes to achieve a unique visual identity. Ensured responsive design, usability, and performance optimization.",
+    client: "SofinityPRO",
+    year: "2025",
+    role: "OpenCart Developer & Front-end Customization",
+    links: [{ live: "https://sofinitypro.com.ua/" }],
+  },
+  {
     imgPath: "projects/smart-lockers.jpg",
     altText: "Smart Locker HUB",
     title: "Promotional landing page",
@@ -17,12 +29,13 @@ export const projects = [
     title: "PetsHelp Marketplace",
     description:
       "As a Front-end Developer and team lead, I built user authentication and service booking forms to improve user flow and conversions. I conducted regular code reviews with a focus on semantic HTML, accessibility, clean architecture, and adherence to the DRY principle. Recognized for leadership and contribution to product quality.",
+    client: "Startup Project",
     year: "2025",
     role: "Front-end Developer",
     links: [{ gitHub: "https://github.com/petHelpMarketplace/frontend/" }],
   },
   {
-    status: "Pet-project",
+    status: "Team-project",
     imgPath: "projects/aqua-track.jpg",
     altText: "Aqua Track",
     title: "A personal water tracker",
@@ -38,7 +51,7 @@ export const projects = [
     ],
   },
   {
-    status: "Pet-project",
+    status: "Team-project",
     imgPath: "projects/lloyd-jef.jpg",
     altText: "Llloyd's portfolio",
     title: "A developer portfolio",
