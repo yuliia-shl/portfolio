@@ -89,7 +89,7 @@ const Projects = () => {
                         <li key={index}>
                           <a
                             href={url}
-                            className="inline-flex items-center gap-1 text-sm font-bold uppercase relative underline-animation hover:text-conifer-400 transition duration-300 ease-in-out"
+                            className="inline-flex items-center gap-1 text-sm font-bold uppercase relative underline-animation transition duration-300 ease-in-out"
                             target="_blank"
                           >
                             {labelMap[type] || "View"}
